@@ -8,10 +8,12 @@ McDonald's is the most famous American fast food chain, with stores all over the
 
 ## Repository Navigation
 The repository has three notebooks and a data folder. You will find the appropriate information within each specific file.
+
 Data
 - McDonald_s_Reviews.csv
 - cleaned.csv
 - processed.csv
+
 Notebooks
 - Data Cleaning Notebook
 - Pre-processing Notebook
