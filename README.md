@@ -15,9 +15,9 @@ Data
 - processed.csv
 
 Notebooks
-- Data Cleaning Notebook
-- Pre-processing Notebook
-- Final Notebook
+- Data_Cleaning_Notebook
+- Pre_processing_Notebook
+- Final_Notebook
 
 ## Presentation and Data Source
 - McDonald's Store Reviews from Kaggle - [Link](https://www.kaggle.com/datasets/nelgiriyewithana/mcdonalds-store-reviews/data)
@@ -27,7 +27,6 @@ Notebooks
 The data for this project has been cleaned and sorted for the final analysis.
 Many tools were used in this process of analysis, including but not limited to pandas, sklearn, nltk, etc.
 After cleaning the data, I set the target variable to "nps_rating" as its values are binary (0 or 1) where 0 means negative, and 1 means positive.
-This was done because even after addressing class imbalance, the original models (ComplementNB, MultinomialNB) had a difficult time accuractly predicting the more neutral ratings (2,3,4).
 From here, I generated wordclouds to get a sense of the most common terms for both negative and positive reviews.
 For negative reviews, the terms that stood out were: order, food, service, wait, time, bad, etc.
 For positive reviews, the terms that stood out were: good, food, service, excellent, fast, great, clean, etc.
