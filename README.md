@@ -30,11 +30,11 @@ After cleaning the data, I set the target variable to "nps_rating" as its values
 From here, I generated wordclouds to get a sense of the most common terms for both negative and positive reviews.
 For negative reviews, the terms that stood out were: order, food, service, wait, time, bad, etc.
 
-<img src='images/wordcloud_neg.PNG' width=300 height=200>
+<img src='images/wordcloud_neg.PNG' width=350 height=200>
 
 For positive reviews, the terms that stood out were: good, food, service, excellent, fast, great, clean, etc.
 
-<img src='images/wordcloud_pos.PNG' width=300 height=200>
+<img src='images/wordcloud_pos.PNG' width=350 height=200>
 
 Next, I ran three models including: Logistic Regression, Random Forest, and Gradient Boosting Classifier.
 For each of the models, I used a Count Vectorizer and ran a Grid Search to determine the best parameters specific to that model.
